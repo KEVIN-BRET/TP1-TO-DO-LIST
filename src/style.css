@@ -1,9 +1,5 @@
-* {
+* body {
   box-sizing: border-box;
-}
-
-p {
-  margin: 0;
 }
 
 body {
@@ -12,6 +8,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+p {
+  margin: 0;
 }
 
 .container {
@@ -27,15 +27,17 @@ form {
   display: flex;
   margin-bottom: 20px;
 }
+
 button {
   padding: 5px 15px;
-  border: 0;
+  border: 0px;
   border-radius: 5px;
-  margin: 0 3px;
   cursor: pointer;
+  margin: 0 3px;
 }
+
 input {
-  padding: 5px 15px;
+  padding: 8px 15px;
   outline: 0;
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -47,7 +49,7 @@ form input {
 }
 
 ul {
-  padding: O;
+  padding: 0;
   list-style: none;
 }
 
